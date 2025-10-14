@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 site-portfolio
 
-## Getting Started
+Современный одностраничный сайт-портфолио, разработанный на **Next.js 15**, **TypeScript** и **Tailwind CSS**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Стек технологий
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 15 (App Router)** — основа проекта  
+- **React 19** — интерфейсные компоненты  
+- **TypeScript** — строгая типизация  
+- **Tailwind CSS 3.4** — адаптивная стилизация  
+- **Lucide React Icons** — иконки интерфейса  
+- **Google Fonts (Space Grotesk)** — основной шрифт  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧩 Основные компоненты
 
-## Learn More
+- **Header** — логотип, имя, краткая информация  
+- **InfoSection** — описание, биография, информация об опыте  
+- **SkillsGrid** — визуальный блок с навыками и иконками  
+- **WorksGrid** — примеры работ (портфолио)  
+- **BackgroundBlobs** — динамические анимированные фоновые элементы  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Скрипты
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Команда | Назначение |
+|----------|-------------|
+| `npm run dev` | Запуск проекта в режиме разработки |
+| `npm run build` | Сборка проекта |
+| `npm run start` | Запуск production-сервера |
+| `npm run lint` | Проверка кода ESLint |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖌️ Стили и визуальные эффекты
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Используется кастомная анимация `float-blob` и `soft-pulse`
+- Компоненты с эффектом стекла (`.liquid-glass`)
+- Мягкие тени, скругления и затемнённая цветовая палитра
+- Поддержка светлой и тёмной темы (тёмная активна по умолчанию)
+
+---
+
+## 📦 Зависимости
+
+Все пакеты указаны в `package.json`, основные из них:
+```json
+"next": "15.5.5",
+"react": "19.1.0",
+"tailwindcss": "^3.4.0",
+"lucide-react": "^0.545.0",
+"typescript": "^5"
