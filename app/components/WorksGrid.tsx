@@ -5,7 +5,11 @@ export default function WorksGrid() {
     { type: "video", src: "https://i.imgur.com/yP2gpPH.mp4", title: "x6x6x6" },
     { type: "video", src: "https://i.imgur.com/dbziRIJ.mp4", title: "Платина" },
     { type: "video", src: "https://i.imgur.com/jaau3bh.mp4", title: "Платина" },
-    { type: "video", src: "https://i.imgur.com/mzm8Toi.mp4", title: "Houdini test"},
+    {
+      type: "video",
+      src: "https://i.imgur.com/mzm8Toi.mp4",
+      title: "Houdini test",
+    },
     { type: "video", src: "https://i.imgur.com/fpLqVou.mp4", title: "Платина" },
     { type: "image", src: "/images/about3.png", title: "Работа 1" },
     { type: "image", src: "/images/about3.png", title: "Работа 1" },
@@ -53,12 +57,12 @@ export default function WorksGrid() {
                 <img className="card-media" src={work.src} alt={work.title} />
               )}
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            <div className="absolute inset-0 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute inset-0 flex items-end p-4 opacity-0 hover:opacity-95 transition-all duration-500">
               <div className="w-full rounded-xl p-3 backdrop-blur-sm bg-black/30 border border-white/10">
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-center">
                   <div>
-                    <div className="text-sm font-medium text-white">
+                    <div className="text-sm text-center font-medium text-white">
                       {work.title}
                     </div>
                     <div className="text-xs text-gray-300 mt-1">

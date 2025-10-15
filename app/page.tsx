@@ -10,7 +10,7 @@ export default function Home() {
       <div className="min-h-screen app-bg relative overflow-hidden">
         <BackgroundBlobs />
 
-        <div className="container container-max mx-auto px-6 py-20">
+        <div className="container container-max mx-auto px-8 py-20">
           <main className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-5 space-y-10">
               <Header />
@@ -23,11 +23,10 @@ export default function Home() {
               <section className="space-y-6">
                 <SkillsGrid />
               </section>
-
-              <section>
-                <WorksGrid />
-              </section>
             </div>
+            <section className="lg:col-span-12 space-y-10">
+              <WorksGrid />
+            </section>
           </main>
 
           <footer className="mt-20 text-center text-sm text-gray-600 dark:text-gray-400">
