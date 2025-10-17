@@ -222,7 +222,7 @@ function Modal({
           </>
         )}
 
-        <div className="bg-black/90 rounded-2xl overflow-hidden shadow-2xl border border-white/10 max-w-4xl w-full">
+        <div className="bg-black/90 rounded-2xl overflow-hidden shadow-2xl border border-white/10">
           {work.type === "video" ? (
             <video
               className="w-full h-auto max-h-[70vh] object-contain"
